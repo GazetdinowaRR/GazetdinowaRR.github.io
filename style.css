@@ -1,0 +1,75 @@
+/* basic */
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+         /* взяли шрифты с google fonts и прописали правило font-family: 'Inter', sans-serif;*/
+    font-family: 'Inter', sans-serif;
+}
+
+/* header */
+
+.container {
+    margin-left: 30px;
+    padding-right: 10px;
+    max-width: 1220px;
+    margin: 0 auto;
+    /* это правила для центровочного контейнера */
+}
+
+.header-wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex; 
+    margin: 0 auto;
+}
+
+.header-contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_social{
+    display: flex;
+    list-style-type: none;
+}
+
+.social_icon_vk, .social_icon_telegram, .social_icon_whatsUp{
+    width: 32px;
+    height: 23px;  
+}
+
+.info-box{
+    margin-top: 30px;
+    display: flex; 
+}
+
+.main-wrapper {
+    padding: 0px 50px;
+
+}
+
+.info-list > li{
+    padding: 8px;
+    margin-left: 30px;
+    padding-right: 10px;
+    list-style-type: none;
+    color: #9999A3;
+}
+
+.right > li{
+   color: black;
+}
+
+.info-exper{
+    padding: 10px 215px;
+    list-style-type: none;
+    color: #BCBCC2;
+    
+}
+
+
+
+
